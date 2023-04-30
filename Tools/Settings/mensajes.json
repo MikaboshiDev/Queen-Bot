@@ -1,0 +1,75 @@
+{
+  "footer": "🥶 Sistema de Funciones Privadas Discord-Bots",
+  "interaction": {
+        "interaction1": "*<a:error:1030716002259980318> El **comando** no esta habilitado en estos **momentos** espera unos minutos de favor*",
+        "interaction2": "*<a:error:1030716002259980318> El **comando** no es posible ejecutarlo por alguien que no es un creador*",
+        "interaction3": "*<a:error:1030716002259980318> El **comando** esta en desarrollo en estos momentos espera nuevas **noticias** pronto*",
+        "interaction4": "*<a:error:1030716002259980318> El **comando** forma parte de funciones **premium** del bot de discord es una **lastima** de verdad*",
+        "interaction5": "*<a:error:1030716002259980318> Me faltan los siguientes **permisos** para interactuar con el servidor*",
+        "interaction6": "*<a:error:1030716002259980318> Te faltan los siguientes **permisos** para interactuar con el servidor*",
+        "interaction7": "*<a:error:1030716002259980318> No puedes usar **comandos** ya que estas como un usuario **(malisioso)** del bot*",
+        "interaction8": "*<a:error:1030716002259980318> No puedes ejecutar este comando en un canal no NSFW*",
+        "interaction9": "*<a:error:1030716002259980318> No puedes ejecutar este comando almenos que seas el creador del bot*",
+        "titles": {
+            "title1": "Interaccion Fallida Actualizando..",
+            "title2": "Interaccion Fallida Development",
+            "title3": "Interaccion Fallida Desarrollo",
+            "title4": "Interaccion Fallida Premium",
+            "title5": "Interaccion Fallida Permisos Bot",
+            "title6": "Permisos Incompletos",
+            "title7": "Usuario Malisioso",
+            "title8": "Error de Interaccion",
+            "title9": "Creador del Bot de Discord"
+              }
+  },
+
+  "button": {
+        "interaction1": "*<a:error:1030716002259980318> You don't have the required permissions to use this.*",
+        "interaction2": "*<a:error:1030716002259980318> Me faltan los siguientes **permisos** para interactuar con el servidor*",
+        "interaction3": "*<a:error:1030716002259980318> El **comando** no es posible ejecutarlo por alguien que no es (developer)*",
+        "titles": {
+            "title1": "Interaccion Fallida Actualizando Permisos",
+            "title2": "Interaccion Fallida Permisos Bot",
+            "title3": "Interaccion Fallida Developer"
+              }
+  },
+
+  "menus": {
+        "interaction1": "*<a:error:1030716002259980318> You don't have the required permissions to use this.*",
+        "interaction2": "*<a:error:1030716002259980318> Me faltan los siguientes **permisos** para interactuar con el servidor*",
+        "interaction3": "*<a:error:1030716002259980318> El **comando** no es posible ejecutarlo por alguien que no es (developer)*",
+        "titles": {
+            "title1": "Interaccion Fallida Actualizando Permisos",
+            "title2": "Interaccion Fallida Permisos Bot",
+            "title3": "Interaccion Fallida Developer"
+          }
+  },
+
+  "modales": {
+        "interaction1": "*<a:error:1030716002259980318> You don't have the required permissions to use this.*",
+        "interaction2": "*<a:error:1030716002259980318> Me faltan los siguientes **permisos** para interactuar con el servidor*",
+        "interaction3": "*<a:error:1030716002259980318> El **comando** no es posible ejecutarlo por alguien que no es (developer)*",
+        "titles": {
+            "title1": "Interaccion Fallida Actualizando Permisos",
+            "title2": "Interaccion Fallida Permisos Bot",
+            "title3": "Interaccion Fallida Developer"
+          }
+  },
+
+  "blacklist": {
+        "user": {
+            "title": "Usuario Blacklisteado",
+            "description": "*<a:error:1030716002259980318> You have been blacklisted from using **${client.user.username}**, the reason behind this decision and the time this has occured is attached below.*",
+            "reason": "`${isUserBlacklisted.reason}`",
+            "tiempo": "`<t:${parseInt(isUserBlacklisted.time / 1000)}:R>`",
+            "footer": "🥶 Sistema de Funciones Privadas Discord-Bots"
+            },
+        "server": {
+            "title": "Servidor Blacklisteado",
+            "description": "*<a:error:1030716002259980318> This server has been blacklisted from using **${client.user.username}**, the reason behind this decision and the time this has occured is attached below.*",
+            "reason": "`${isGuildBlacklisted.reason}`",
+            "tiempo": "`<t:${parseInt(isGuildBlacklisted.time / 1000)}:R>`",
+            "footer": "🥶 Sistema de Funciones Privadas Discord-Bots"
+            }
+  }
+}

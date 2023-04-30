@@ -1,0 +1,54 @@
+{
+    "joinVc": {
+        "join": "https://cdn.discordapp.com/emojis/866356465299488809.png?size=128",
+        "left": "https://cdn.discordapp.com/emojis/866356598356049930.png?size=128"
+    },
+    "croosplay": {
+        "geyser": "https://cdn.discordapp.com/attachments/1027458270589362257/1037995443738656809/1446027600_027600_000001_portada_normal.jpg",
+        "floogdate": "https://cdn.discordapp.com/attachments/1027458270589362257/1037995290050953216/th.jpg",
+        "velocity": "https://cdn.discordapp.com/attachments/1027458270589362257/1037995773532569630/article-1280x720.3944cc1b.jpg",
+        "bungecord": "https://cdn.discordapp.com/attachments/1027458270589362257/1037995961286393886/th_1.jpg"
+    },
+    "wikipedia": {
+        "bedrock": "https://cdn.discordapp.com/attachments/1027458270589362257/1037632949845241876/custom_blocks_inventory.png",
+        "croosplay": "https://cdn.discordapp.com/attachments/1027458270589362257/1037989429966536744/th_5.jpg"
+    },
+    "menus": {
+        "economia": "https://cdn.discordapp.com/attachments/1022781686104211456/1026381260358168586/economia.jpg"
+    },
+    "alquimia": {
+        "posiones": "https://cdn.discordapp.com/attachments/1027458270589362257/1027465939320586270/Pociones.jpg",
+        "exposivos": "https://cdn.discordapp.com/attachments/1027458270589362257/1027465937693196308/dinamita.jpg",
+        "agua": "https://cdn.discordapp.com/attachments/1027458270589362257/1027465938599165953/agua.jpg",
+        "inifuga": "https://cdn.discordapp.com/attachments/1027458270589362257/1027465939551277107/regeneracion.jpg",
+        "invisibilidad": "https://cdn.discordapp.com/attachments/1027458270589362257/1027465939052146698/invisibilidad.jpg",
+        "salto": "https://cdn.discordapp.com/attachments/1027458270589362257/1027465939320586270/Pociones.jpg",
+        "velocidad": "https://cdn.discordapp.com/attachments/1027458270589362257/1027465938821468200/inifuga.jpg",
+        "regeneracion": "https://cdn.discordapp.com/attachments/1027458270589362257/1027465939551277107/regeneracion.jpg",
+        "fuerza": "https://cdn.discordapp.com/attachments/1027458270589362257/1027465937944858634/fuerza.jpg"
+    },
+    "diversion": {
+        "banana": "http://media.discordapp.net/attachments/755529601333067940/853072892702490624/banana.png",
+        "gatos": "https://cdn.discordapp.com/attachments/1021531208540229642/1022614665018212412/unknown.png",
+        "pociones": "https://cdn.discordapp.com/attachments/1018701929796337714/1023454279102631946/Pociones.jpg",
+        "canvas": "https://cdn.discordapp.com/attachments/1005210138048733204/1014982812870398054/unknown.png"
+    },
+    "github": {
+        "lenguajes": {
+            "c": "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
+            "c++": "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
+            "css": "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
+            "html": "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg",
+            "java": "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+            "javascript": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
+            "mathlab": "https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png",
+            "mysql": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+            "python": "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+        },
+        "sociales": {
+            "discord": "https://discord.com/assets/41484d92c876f76b20c7f746221e8151.svg",
+            "twither": "https://raw.githubusercontent.com/devicons/devicon/master/icons/twitter/twitter-original.svg",
+            "linkedbin": "https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg"
+        }
+    }
+}
