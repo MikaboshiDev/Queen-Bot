@@ -47,6 +47,9 @@ const shards = new ShardingManager("./index.js", {
 Contamos con un archivo funcion de log para la consola y errores presentes dentro del CORE la funcion puede ser manual o automatica
 cada que se genere un error posible se creara una carpeta log con un archivo .log para que se registren los errores encontrados
 el formato consta de fecha, dia, mes y motivo del error.
+  
+Este repositorio y su codigo fue actualizado por ultima vez el `11/12/2022` si hay errores o codigo inecesario puedes notificarlo,
+muchas gracias a quien me aviso por los webhooks
 ```js
 const { path } = require("./path");
 const { Logger } = require('leekslazylogger');
