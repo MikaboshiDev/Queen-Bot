@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://cdn.discordapp.com/attachments/1027458270589362257/1055591517454073876/100-beautiful-full-hd-4k-minecraft-wallpapers-picture-2-scSVR9CG2.jpg" alt="AVATAR QUEEN BOT"/><br/>QUEEN BOT<br/>
+  <img src="https://cdn.discordapp.com/attachments/1027458270589362257/1055591517454073876/100-beautiful-full-hd-4k-minecraft-wallpapers-picture-2-scSVR9CG2.jpg" alt="AVATAR QUEEN BOT"/><br/>NEKO PUBLICA<br/>
   <img src="https://img.shields.io/badge/Discord.js-v14-%2334d058?style=flat-square&logo=npm&logoColor=fff" alt="DJS Version"/>
   <img src="https://img.shields.io/badge/Node.js-v16-%2334d058?style=flat-square&logo=npm&logoColor=fff" alt="Node Version"/>
   <img src="https://img.shields.io/badge/Version-1.0.0-%2334d058?style=flat-square&logo=npm&logoColor=fff" alt="Version"/>
@@ -7,16 +7,6 @@
 </h1>
 <h3 align="center">
 
-    
-## 📢 Componentes
-- ☑️ Slash Commands
-- ☑️ Prefix Commands **[Sub Comandos]**
-- ☑️ Addons Integrados **[Archivo YML]**
-- ☑️ Enrutamiento Paypal **[Pagos]**
-- ☑️ Estado de Minecraft **[Servidores]**
-- ☑️ Funciones de AutoModeracion
-- ☑️ Modmail Integrado
-- ☑️ Clean UI **[Interfaz de Usuario]**
     
 ## 🖼️ Fotografias
 Bot publico para multiples servidores de discord cuenta con gran cantidad de comandos, funciones, eventos y mas caracteristicas que te ayudaran
@@ -41,37 +31,6 @@ const shards = new ShardingManager("./index.js", {
     totalShards: 1,
     respawn: true,
 }); shards.spawn({ amount: shards.totalShards, delay: 5500, timeout: 30000 });
-```
-  
-## 🗄️ Log Funcion
-Contamos con un archivo funcion de log para la consola y errores presentes dentro del CORE la funcion puede ser manual o automatica
-cada que se genere un error posible se creara una carpeta log con un archivo .log para que se registren los errores encontrados
-el formato consta de fecha, dia, mes y motivo del error.
-  
-Este repositorio y su codigo fue actualizado por ultima vez el `11/12/2022` si hay errores o codigo inecesario puedes notificarlo,
-muchas gracias a quien me aviso por los webhooks
-```js
-const { path } = require("./path");
-const { Logger } = require('leekslazylogger');
-module.exports = new Logger({
-    debug: false,
-    directory: path("./Tools/Registros/consola/"),
-    keepFor: 30,
-    level: {
-        _logger: { format: '&f&!7{timestamp}&r [LOGGER] {text}' },
-    },
-    logToFile: true,
-    name: 'NekoCore Bot Multipropocito | Consola',
-    splitFile: true,
-    timestamp: 'YYYY-MM-DD HH:mm:ss'
-});
- ```
-Como hacer el logueo en algun archivo no olvides visitar su pagina web [Leekslazylogger](https://logger.eartharoid.me/):
-```js
-//Recuerda antes llamar al archivo 
-log.notice(`Unhandled Rejection/Catch: El Dia: ${new Date().toLocaleDateString()} a las ${new Date().toLocaleTimeString()}`);
-log.warn(`Razon: ${reason ? reason : `No hay razon disponible`}`);
-log.error(`Error: ${promise ? promise : `No hay error disponible`}`);
 ```
 
 ## 📈 Libros de Programacion
